@@ -16,6 +16,7 @@ import Form from '../../components/form'
 
 export default function Post({ post, morePosts, preview }) {
   console.log(post)
+  console.log(JSON.stringify(post.body))
   const router = useRouter()
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />

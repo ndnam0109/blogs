@@ -1,0 +1,10 @@
+# /Documents/projects/catalog-remix/codegen.yml
+
+generates:
+  ./app/models/sanity-generated.ts:
+    schema: <placeholder>
+    documents: <placeholder>
+    plugins:
+      - typescript
+      - typescript-operations
+      - typed-document-node
